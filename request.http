@@ -1,0 +1,26 @@
+POST http://localhost:4002/products
+Content-Type: application/json
+
+ 
+{
+    "name":"IPHONE X",
+    "price":400
+}
+
+###
+GET http://localhost:4002/products/
+
+###
+GET http://localhost:4002/products/4a7459
+
+###
+PUT http://localhost:4002/products/009d59
+Content-Type: application/json
+
+{
+    "name":"IPHONE 11",
+    "price":400
+}
+
+###
+DELETE http://localhost:4002/products/fba93f
